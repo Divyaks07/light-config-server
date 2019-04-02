@@ -37,7 +37,8 @@ import org.eclipse.jgit.api.errors.GitAPIException;
 import org.eclipse.jgit.lib.Repository;
 import org.eclipse.jgit.storage.file.FileRepositoryBuilder;
 
-import static com.networknt.utility.Decryptor.CRYPT_PREFIX;
+import static com.networknt.decrypt.Decryptor.CRYPT_PREFIX;
+
 
 public class ConfigValueProcessorImpl implements  ConfigValueProcessor{
 

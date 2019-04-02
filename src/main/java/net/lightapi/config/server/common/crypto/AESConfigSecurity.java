@@ -1,6 +1,5 @@
 package net.lightapi.config.server.common.crypto;
 
-import com.networknt.utility.Constants;
 import sun.misc.BASE64Decoder;
 import sun.misc.BASE64Encoder;
 
@@ -14,7 +13,7 @@ import java.security.InvalidKeyException;
 import java.security.spec.InvalidParameterSpecException;
 import java.security.spec.KeySpec;
 
-import static com.networknt.utility.Decryptor.CRYPT_PREFIX;
+import static com.networknt.decrypt.Decryptor.CRYPT_PREFIX;
 
 public class AESConfigSecurity implements ConfigSecurity {
 

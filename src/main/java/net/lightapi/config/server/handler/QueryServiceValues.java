@@ -19,7 +19,8 @@ import net.lightapi.config.server.util.ResponseUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import static com.networknt.utility.Decryptor.CRYPT_PREFIX;
+import static com.networknt.decrypt.Decryptor.CRYPT_PREFIX;
+
 
 @ServiceHandler(id="lightapi.net/config/query-service-values/0.1.0")
 public class QueryServiceValues implements Handler {
